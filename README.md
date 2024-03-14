@@ -19,14 +19,14 @@ This project involves building a responsive personal portfolio website that effe
 
 ## 💡 Deployment
 
-You can access the website [here](https://datamaven.vercel.app).
+You can access the website [here](https://cyborgdomain.vercel.app).
 
 ## 💬 Contact
 
-For more information please contact <datamaven14@yahoo.com>
+For more information please contact <cyborgdomain@proton.me>
 
 ## 📜 License
 
 This project is licensed under the MIT License
 
-See the license file for more details [LICENSE](https://github.com/datamaven14/PortfolioWebsite/blob/master/LICENSE).
+See the license file for more details [LICENSE](https://github.com/cyb0rg14/PortfolioWebsite/blob/master/LICENSE).
