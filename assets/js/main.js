@@ -61,9 +61,12 @@ tabs.forEach((tab) => {
     });
     target.classList.add("qualification__active");
 
+    // Remove active class from all tabs
     tabs.forEach((tab) => {
       tab.classList.remove("qualification__active");
     });
+    
+    // Add active class only to the clicked tab
     tab.classList.add("qualification__active");
   });
 });
@@ -259,7 +262,7 @@ ScrollReveal().reveal(".contact__container", { duration: 2000, delay: 50 });
 
 /*==================== TYPED JS ====================*/
 const typed_home = new Typed("#multiple-text", {
-  strings: ["AI Enginner Intern", "Deep Learning Enthusiast"],
+  strings: ["Machine Learning Engineer", "Deep Learning Specialist"],
   typeSpeed: 100,
   backSpeed: 30,
   backDelay: 1000,
@@ -267,7 +270,7 @@ const typed_home = new Typed("#multiple-text", {
 });
 
 const typed_footer = new Typed("#multiple-text-footer", {
-  strings: ["AI Enginner Intern", "Deep Learning Enthusiast"],
+  strings: ["Machine Learning Engineer", "Deep Learning Specialist"],
   typeSpeed: 100,
   backSpeed: 30,
   backDelay: 1000,
