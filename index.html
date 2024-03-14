@@ -2,551 +2,625 @@
 <!--author: Cyborg-->
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!--==================== META ====================-->
+    <meta name="description" content="Cyborg Portfolio" />
+    <meta
+      name="keywords"
+      content="cyborgcodes, cyb0rg14, cyborgcodes portfolio, cyb0rg14 portfolio"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <head>
-        <!--==================== META ====================-->
-        <meta name="description"
-            content="Personal Portfolio page of Cyborg">
-        <meta name="keywords"
-            content="Cyborg Portfolio, cyb0rg14 Portfolio, computer science, data analysis, data science, machine learning, deep learning, natural language processing, large language models, computer vision">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyborg - Portfolio</title>
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!--==================== FAVICON ====================-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/general/favicon.png"
+      type="image/png"
+    />
+    <!--==================== GOOGLE ANALYTICS ====================-->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KWYBRH7VQ4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        <title>Portfolio - Cyborg </title>
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <!--==================== FAVICON ====================-->
-        <link rel="shortcut icon" href="assets/img/general/favicon.png" type="image/png">
-        <!--==================== GOOGLE ANALYTICS ====================-->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWYBRH7VQ4"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+      gtag("config", "G-KWYBRH7VQ4");
+    </script>
+    <!--==================== TYPED JS ====================-->
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+  </head>
 
-            gtag('config', 'G-KWYBRH7VQ4');
-        </script>
-        <!--==================== TYPED JS ====================-->
-        <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
-    </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Cyborg</a>
 
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Cyborg</a>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class="uil uil-estate nav__icon"></i> Home
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i> About
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class="uil uil-atom nav__icon"></i> Skills
-                            </a>
-                        </li>
-                        <!-- <li class="nav__item">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-atom nav__icon"></i> Skills
+              </a>
+            </li>
+            <!-- <li class="nav__item">
                             <a href="#qualification" class="nav__link">
                                 <i class="uil uil-book-alt nav__icon"></i> Qualification
                             </a>
                         </li> -->
-                        <li class="nav__item">
-                            <a href="#certifications" class="nav__link">
-                                <i class="uil uil-file-alt nav__icon"></i> Certifications
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#projects" class="nav__link">
-                                <i class="uil uil-desktop-alt nav__icon"></i> Projects
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#blog" class="nav__link">
-                                <i class="uil uil-newspaper nav__icon"></i> Blog
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i> Contact
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
-                </div>
+            <li class="nav__item">
+              <a href="#certifications" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> Certifications
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <i class="uil uil-desktop-alt nav__icon"></i> Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">
+                <i class="uil uil-newspaper nav__icon"></i> Blog
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
 
-                <div class="nav__btns">
-                    <!-- Theme change button -->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
 
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__content grid">
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/in/cyb0rg14" target="_blank" class="home__social-icon">
-                                <i class="uil uil-linkedin-alt"></i>
-                            </a>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/cyborgcodes"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
 
-                            <a href="https://github.com/cyb0rg14" target="_blank" class="home__social-icon">
-                                <i class="uil uil-github-alt"></i>
-                            </a>
+              <a
+                href="https://github.com/cyb0rg14"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
 
-                            <a href="https://twitter.com/cyb0rg14" target="_blank" class="home__social-icon">
-                                <i class="uil uil-twitter-alt"></i>
-                            </a>
+              <a
+                href="https://twitter.com/cyborgcodes_"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-twitter-alt"></i>
+              </a>
+            <!-- <a
+                href="https://twitter.com/cyborgcodes_"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-twitter-alt"></i>
+            </a> -->
 
-                            <a href="https://cyborgdomain.substack.com/" target="_blank" class="home__social-icon">
-                                <i class="uil uil-notebooks"></i>
-                            </a>
-                        </div>
+              <a
+                href="https://cyborgblogs.hashnode.dev"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-blogger"></i>
+              </a>
+            </div>
 
-                        <div class="home__img">
-                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                                 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
                                                 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                                </mask>
-                                <g mask="url(#mask0)">
-                                    <path
-                                        d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
                                                 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                                 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                                    <image class="home__blob-img" x="0" y="-10" href="assets/img/general/profile.png" />
-                                </g>
-                            </svg>
-                        </div>
+                                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="0"
+                    y="-10"
+                    href="assets/img/general/profile.png"
+                  />
+                </g>
+              </svg>
+            </div>
 
-                        <div class="home__data">
-                            <h1 class="home__title">
-                                hi, <span class="home__colored-text">Cyborg</span> here.<span class="home__colored-text"></span>
-                            </h1>
-                            <h2 class="home__subtitle"><span id="multiple-text"></span></h2> 
-                            <p class="home__description">
-                                I find <span class="home__colored-text">patterns</span> in your data.
-                            </p>
-                            <a href="#contact" class="home__button button button--flex">
-                                Say hi <i class="uil uil-envelope-alt button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
+            <div class="home__data">
+              <h1 class="home__title">
+                hi, <span class="home__colored-text">Cyborg</span> here.<span
+                  class="home__colored-text"
+                ></span>
+              </h1>
+              <h2 class="home__subtitle">
+                <span id="multiple-text"></span>
+              </h2>
+              <p class="home__description">
+                I find <span class="home__colored-text">patterns</span> in your
+                data.
+              </p>
+              <a href="#contact" class="home__button button button--flex">
+                Say hi <i class="uil uil-envelope-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
 
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Scroll down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About me</h2>
+        <span class="section__subtitle">Quick introduction</span>
+
+        <div class="about__container container grid">
+          <img
+            src="assets/img/general/illustration.png"
+            alt="About section background image"
+            class="about__img"
+          />
+
+          <div class="about__data">
+            <p class="about__description">
+              Ever since I ventured into the world of Machine Learning, I've
+              been driven by a passion for tackling problems head-on. Along the
+              way, I've had the privilege of assisting over a thousand
+              individuals by crafting unique projects that address real-world
+              problems.<br /><br />
+              Now, as I look forward to new horizons, my goal is to extend this
+              impact even further while collaborating with like-minded
+              individuals. Let's connect and explore the possibilities
+              together!.. <br /><br />
+            </p>
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">12+</span>
+                <span class="about__info-name"
+                  >Months<br />
+                  Experience</span
+                >
+              </div>
+              <div>
+                <span class="about__info-title">15+</span>
+                <span class="about__info-name"
+                  >AI Projects<br />Completed</span
+                >
+              </div>
+              <div>
+                <span class="about__info-title">5</span>
+                <span class="about__info-name"
+                  >Articles <br />
+                  Written</span
+                >
+              </div>
+            </div>
+
+            <div class="about__buttons">
+              <a
+                href="assets/docs/cyborg_resume.pdf"
+                download="cyborg_resume.pdf"
+                class="my-resume-btn button button--flex"
+                href=""X
+              >
+                My resume<i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <!--==================== SKILL 1 ====================-->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Languages</h1>
+                  <span class="skills__subtitle">All about the core..</span>
                 </div>
-            </section>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <h2 class="section__title">About me</h2>
-                <span class="section__subtitle">Quick introduction</span>
-
-                <div class="about__container container grid">
-                    <img src="assets/img/general/illustration.png" alt="About section background image" class="about__img">
-
-                    <div class="about__data">
-                        <p class="about__description">
-                            Ever since I ventured into the world of Machine Learning, I've been driven by a passion for tackling problems head-on. Along the way, I've had the privilege of assisting over a thousand individuals by crafting unique projects that address real-world problems.<br><br>
-                            Now, as I look forward to new horizons, my goal is to extend this impact even further while collaborating with like-minded individuals. Let's connect and explore the possibilities together!.. <br><br>
-                        </p>
-                        <div class="about__info">
-                            <div>
-                                <span class="about__info-title">5</span>
-                                <span class="about__info-name">Months<br> experience</span>
-                            </div>
-                            <div>
-                                <span class="about__info-title">10</span>
-                                <span class="about__info-name">Data Projects<br>Completed</span>
-                            </div>
-                            <div>
-                                <span class="about__info-title">4</span>
-                                <span class="about__info-name">Articles <br> Written</span>
-                            </div>
-                        </div>
-
-                        <div class="about__buttons">
-                            <a href="assets/docs/datamaven_resume.pdf" download="datamaven_resume.pdf" class="my-resume-btn button button--flex" href="">
-                                My resume<i class="uil uil-download-alt button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__python"></span>
+                  </div>
                 </div>
-            </section>
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-                <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">My technical level</span>
-
-                <div class="skills__container container grid">
-                    <div>
-                        <!--==================== SKILL 1 ====================-->
-                        <div class="skills__content skills__open">
-                            <div class="skills__header">
-                                <i class="uil uil-brackets-curly skills__icon"></i>
-                                <div>
-                                    <h1 class="skills__title">Languages</h1>
-                                    <span class="skills__subtitle">All about the core..</span>
-                                </div>
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Python</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__python"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">SQL</h3>
-                                        <span class="skills__number">80%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__sql"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">C++</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__js"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Rust</h3>
-                                        <span class="skills__number">40%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__swift"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--==================== SKILL 2 ====================-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-server-network skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Frameworks</h1>
-                                    <span class="skills__subtitle">Everyone needs support</span>
-                                </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">NumPy</h3>
-                                        <span class="skills__number">85%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__np"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Pandas</h3>
-                                        <span class="skills__number">80%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__pd"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Matplotlib</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__plt"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Scikit-learn</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__sk"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Seaborn</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__sea"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">OpenCV</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__cv"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Streamlit</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__flask"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">TensorFlow</h3>
-                                        <span class="skills__number">85%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__tf"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">PyTorch</h3>
-                                        <span class="skills__number">80%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__pytorch"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Flask</h3>
-                                        <span class="skills__number">40%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__trax"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <!--==================== SKILL 3 ====================-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-atom skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Machine Learning</h1>
-                                    <span class="skills__subtitle">Theory, theory!</span>
-                                </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Linear and Logistic Regression</h3>
-                                        <span class="skills__number">85%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__lr"></span>
-                                    </div>
-                                </div>
-
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Decision Trees</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__dt"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Exploratory Data Analysis</h3>
-                                        <span class="skills__number">80%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__eda"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Time Series</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__ts"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Convolutional Neural Networks</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__cnn"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Natural Language Processing</h3>
-                                        <span class="skills__number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__nlp"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Ensemble Models</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__em"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Recommender Systems</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__rs"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Multi-modal Learning</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__mml"></span>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <!--==================== SKILL 4 ====================-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-analysis skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Databases and Viz</h1>
-                                    <span class="skills__subtitle">Storing data and making it pretty</span>
-                                </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">MySQL</h3>
-                                        <span class="skills__number">80%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__mysql"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Postgres</h3>
-                                        <span class="skills__number">70%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__mgdb"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">MongoDB</h3>
-                                        <span class="skills__number">60%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__tableau"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">PowerBI</h3>
-                                        <span class="skills__number">75%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__powerbi"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">SQL</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__sql"></span>
+                  </div>
                 </div>
-            </section>
 
-            <!-- ==================== QUALIFICATION ====================
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">C++</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__js"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Rust</h3>
+                    <span class="skills__number">40%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__swift"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--==================== SKILL 2 ====================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-server-network skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Frameworks</h1>
+                  <span class="skills__subtitle">Everyone needs support</span>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">NumPy</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__np"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Pandas</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__pd"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Matplotlib</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__plt"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Scikit-learn</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__sk"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Seaborn</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__sea"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">OpenCV</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__cv"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Streamlit</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__flask"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">PyTorch</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__tf"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Tensorflow</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__pytorch"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Flask</h3>
+                    <span class="skills__number">40%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__trax"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <!--==================== SKILL 3 ====================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-atom skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Machine Learning</h1>
+                  <span class="skills__subtitle">Theory, theory!</span>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Linear and Logistic Regression</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__lr"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Decision Trees</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__dt"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Exploratory Data Analysis</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__eda"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Time Series</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__ts"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Convolutional Neural Networks</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__cnn"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Natural Language Processing</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__nlp"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Ensemble Models</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__em"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Multi-modal Learning</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__rs"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Recommender Systems/h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__mml"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--==================== SKILL 4 ====================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-analysis skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Databases and Viz</h1>
+                  <span class="skills__subtitle"
+                    >Storing data and making it pretty</span
+                  >
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">MySQL</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__mysql"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Postgres</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__mgdb"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">MongoDB</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__tableau"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">PowerBI</h3>
+                    <span class="skills__number">75%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__powerbi"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== QUALIFICATION ====================
             <section class="qualification section" id="qualification">
                 <h2 class="section__title">Qualification</h2>
                 <span class="section__subtitle">My personal journey</span>
@@ -566,7 +640,7 @@
 
                     <div class="qualification__sections">
                         ==================== QUALIFICATION CONTENT 1 ====================-->
-                        <!-- <div class="qualification__content qualification__active" data-content id="education">
+      <!-- <div class="qualification__content qualification__active" data-content id="education">
                             ==================== QUALIFICATION 1 ====================
                             <div class="qualification__data">
 
@@ -588,8 +662,8 @@
                             </div>
 
                             -==================== QUALIFICATION 2 ====================-->
-                            <!-- <div class="qualification__data"> -->
-                                <!-- <div></div>
+      <!-- <div class="qualification__data"> -->
+      <!-- <div></div>
 
                                 <div>
                                     <span class="qualification__rounder"></span>
@@ -602,14 +676,14 @@
                                     </h3>
                                     <span class="qualification__subtitle">Morocco - CPGE</span>
                                     <div class="qualification__calendar"> -->
-                                        <!-- <i class="uil uil-calendar-alt"></i>
+      <!-- <i class="uil uil-calendar-alt"></i>
                                         2018 - 2020
                                     </div>
                                 </div>
                             </div>
 
                             ==================== QUALIFICATION 3 ====================-->
-                            <!-- <div class="qualification__data">
+      <!-- <div class="qualification__data">
 
                                 <div>
                                     <h3 class="qualification__title">
@@ -630,8 +704,8 @@
                                 </div>
                             </div> -->
 
-                            <!--==================== QUALIFICATION 4 ====================-->
-                            <!-- <div class="qualification__data">
+      <!--==================== QUALIFICATION 4 ====================-->
+      <!-- <div class="qualification__data">
                                 <div></div>
 
                                 <div>
@@ -654,12 +728,12 @@
                             </div>
                             ==================== QUALIFICATION 5 ==================== -->
 
-                        <!-- </div> -->
-                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
-                        <!-- <div class="qualification__content" data-content id="work"> -->
+      <!-- </div> -->
+      <!--==================== QUALIFICATION CONTENT 2 ====================-->
+      <!-- <div class="qualification__content" data-content id="work"> -->
 
-                            <!--==================== QUALIFICATION 1 ====================-->
-                            <!-- <div class="qualification__data"> 
+      <!--==================== QUALIFICATION 1 ====================-->
+      <!-- <div class="qualification__data"> 
 
                                 <div>
                                     <h3 class="qualification__title">
@@ -679,9 +753,9 @@
 
                             </div> -->
 
-                            <!--==================== QUALIFICATION 2 ====================-->
+      <!--==================== QUALIFICATION 2 ====================-->
 
-                            <!-- <div class="qualification__data">
+      <!-- <div class="qualification__data">
                                 <div></div>
 
                                 <div>
@@ -703,388 +777,575 @@
                         </div>
                     </div>
                 </div> -->
-            <!-- </section> --> 
+      <!-- </section> -->
 
-            <!--==================== CERTIFICATIONS ====================-->
-            <section class="certification section" id="certifications">
-                <h2 class="section__title">Certifications</h2>
-                <span class="section__subtitle">Extra courses I have undertaken</span>
+      <!--==================== CERTIFICATIONS ====================-->
+      <section class="certification section" id="certifications">
+        <h2 class="section__title">Certifications</h2>
+        <span class="section__subtitle">Extra courses I have undertaken</span>
 
-                <div class="certification__container container grid">
-
-                    <!--==================== CERTIFICATION 1 ====================-->
-                    <div class="certification__content">
-                        <div>
-                            <img src="./assets/img/certifications/google.png" class="certification__img_1">
-                            <h4 class="certification__title">Google Data Analytics</h4>
-                            <h4 class="certification__subtitle">Expiry Date: Does not expire</h4>
-                        </div>
-
-                        <a class="button button--flex button--small button--link certification__button"
-                            href="https://youtube.com/playlist?list=PLtS8Ubq2bIlVN4Zom0O-6rBysJs3wns60&si=X7TH4kHw0Z-z5m0S" target="_blank">
-                            View Certificate
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-
-                    <!--==================== CERTIFICATION 2 ====================-->
-                    <div class="certification__content">
-                        <div>
-                            <img src="./assets/img/certifications/scaler.png" class="certification__img">
-                            <h4 class="certification__title">MySQL 5.6 Developer</h4>
-                            <h4 class="certification__subtitle">Expiry Date: Does not expire</h4>
-                        </div>
-
-                        <a class="button button--flex button--small button--link certification__button"
-                            href="https://moonshot.scaler.com/s/li/KtlVLgLSC0"
-                            target="_blank">
-                            View Certificate
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-
-                    <!--==================== CERTIFICATION 3 ====================-->
-                    <div class="certification__content">
-                        <div>
-                            <img src="./assets/img/certifications/greatLearning.png" class="certification__img_2">
-                            <h4 class="certification__title">Analyzing and Visualizing Data with Microsoft Excel</h4>
-                            <h4 class="certification__subtitle">Expiry Date: Does not expire</h4>
-                        </div>
-
-                        <a class="button button--flex button--small button--link certification__button"
-                            href="https://olympus.mygreatlearning.com/courses/62883/certificate" target="_blank">
-                            View Certificate
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-
-                    <!--==================== CERTIFICATION 4 ====================-->
-                    <div class="certification__content">
-                        <div>
-                            <img src="assets/img/certifications/mindLuster.webp" class="certification__img">
-                            <h4 class="certification__title">Git and Github Certification - Intermediate Course</h4>
-                            <h4 class="certification__subtitle">Expiry Date: Does not expire</h4>
-                        </div>
-
-                        <a class="button button--flex button--small button--link certification__button"
-                            href="https://www.mindluster.com/student/certificate/184204987" target="_blank">
-                            View Certificate
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== PROJECTS ====================-->
-            <section class="projects section" id="projects">
-                <h2 class="section__title">Projects</h2>
-                <span class="section__subtitle">Most recent work</span>
-
-                <div class="projects__container container swiper-container">
-                    <div class="swiper-wrapper">
-                        
-                        <!--==================== PROJECT 1 ====================-->
-                        <div class="projects__content grid swiper-slide">
-                            <img src="assets/img/projects/project-1.png" alt="StatEase"
-                                class="projects__img">
-
-                            <div class="projects__data">
-                                <h3 class="projects__title">StatEase</h3>
-                                <p class="projects__description">
-                                    The core intention of this website is to lessen the time it takes a person to do the basic analysis of their data.
-                                    More than 300 users are using it on monthly basis. This website has successfully shown decrease in time by a significant amount of 70%.
-                                </p>
-                                <a href="https://github.com/cyb0rg14/statease" target="_blank"
-                                    class="button button--flex button--small projects__button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a href="https://statease.streamlit.app" target="_blank"
-                                class="button button--flex button--small projects__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            </div>
-                        </div>
-                        <!--==================== PROJECT 2 ====================-->
-                        <div class="projects__content grid swiper-slide">
-                            <img src="assets/img/projects/project-2.jpg" alt="Anime Odyssey: An Anime Recommender System"
-                                class="projects__img">
-
-                            <div class="projects__data">
-                                <h3 class="projects__title">Anime Odyssey</h3>
-                                <p class="projects__description">
-                                    I have seen my friends struggling what to watch after finishing an anime. So with my interest in both ML & Otaku culture, I made this website to help my fellow weebs. Now this is a place for 500+ otakus to get recommendation for their next anime.
-                                </p>
-                                <a href="https://github.com/cyb0rg14/AnimeOdyssey" target="_blank"
-                                    class="button button--flex button--small projects__button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a href="https://animeodysseyy.streamlit.app" target="_blank"
-                                class="button button--flex button--small projects__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            </div>
-                        </div>
-                        <!--==================== PROJECT 3 ====================-->
-                        <div class="projects__content grid swiper-slide">
-                            <img src="assets/img/projects/project-6.jpg" alt="Anime Odyssey: An Anime Recommender System"
-                                class="projects__img">
-
-                            <div class="projects__data">
-                                <h3 class="projects__title">Artifact</h3>
-                                <p class="projects__description">
-                                    I have seen my friends struggling what to watch after finishing an anime. So with my interest in both ML & Otaku culture, I made this website to help my fellow weebs. Now this is a place for 500+ otakus to get recommendation for their next anime.
-                                </p>
-                                <a href="https://github.com/cyb0rg14/Artifact" target="_blank"
-                                    class="button button--flex button--small projects__button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a href="https://artifact.streamlit.app" target="_blank"
-                                class="button button--flex button--small projects__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            </div>
-                        </div>
-                        <!--==================== PROJECT 4 ====================-->
-                        <div class="projects__content grid swiper-slide">
-                            <img src="assets/img/projects/project-3.jpg" alt="WallFindr: WallPaper Reverse Search Engine"
-                                class="projects__img">
-
-                            <div class="projects__data">
-                                <h3 class="projects__title">WallFindr</h3>
-                                <p class="projects__description">
-                                    Sometimes people seems to get confused about the home page of their PC. This website solves that problem by giving you back 50 wallpapers similar to one what you already have. So you won't get bored from next time by looking at your wallpaper.
-                                </p>
-                                <a href="https://github.com/cyb0rg14/WallFindr" target="_blank"
-                                    class="button button--flex button--small projects__button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a href="https://wallfindr.streamlit.app" target="_blank"
-                                class="button button--flex button--small projects__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            </div>
-                        </div>
-                       
-                        <!--==================== PROJECT 5 ====================-->
-                        <div class="projects__content grid swiper-slide">
-                            <img src="assets/img/projects/project-4.jpg" alt="ChatBot"
-                                class="projects__img">
-
-                            <div class="projects__data">
-                                <h3 class="projects__title">ChatBot Maven</h3>
-                                <p class="projects__description">
-                                    This project involves fine tuning new launched LLM by meta. This website serves the same purpose as ChatGPT and Bard. Though it is at very initial stage. But this was just a fun project. And you have to use your own replicate token to start chatting.
-                                </p>
-                                <a href="https://github.com/cyb0rg14/ChatBot" target="_blank"
-                                    class="button button--flex button--small projects__button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a href="https://chatbotmaven.streamlit.app" target="_blank"
-                                class="button button--flex button--small projects__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            </div>
-                        </div>
-                        <!--==================== PROJECT 6 ====================-->
-                        <div class="projects__content grid swiper-slide">
-                            <img src="assets/img/projects/project-5.jpg" alt="2021 Olympics Dashboard"
-                                class="projects__img">
-
-                            <div class="projects__data">
-                                <h3 class="projects__title">2021 Olympics Dashboard</h3>
-                                <p class="projects__description">
-                                    This was the capstone project I crated for Data Analytics Bootcamp. Here I have analyzed insights like which country won the most medal, which sports were played the most by atheletes from 2021 Olympics Data. Have a look at it below 👇
-                                </p>
-                                <a href="https://www.novypro.com/project/2021-olympics-analysis-dashboard" target="_blank"
-                                    class="button button--flex button--small projects__button">
-                                    Demo
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Adding arrows -->
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-projects-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-projects-icon"></i>
-                    </div>
-
-                    <!-- Adding pagination -->
-                    <div class="swiper-pagination"></div>
-                </div>
-
-            </section>
-
-            <!--==================== BLOG ====================-->
-            <section class="blog section" id="blog">
-                <h2 class="section__title">Blog</h2>
-                <span class="section__subtitle">My technical articles </span>
-
-                <div class="blog__container container swiper-container">
-                    <div class="swiper-wrapper">
-                        <!--==================== BLOG 1 ====================-->
-                        <div class="blog__content grid swiper-slide">
-                            <img src="assets/img/blog/metrics.jpeg" alt="Customizing macOS terminal" class="blog__img">
-
-                            <div class="blog__data">
-                                <h3 class="blog__title">Indian Unicorns Analysis (EDA using Python)</h3>
-                                <p class="blog__description">A comprehensive walkthrough of how to perform EDA on a dataset to find hidden insights out of it. I explore Indian Startup culture and Unicorns in this dataset.</p>
-
-                                <a href="https://cyb0rg14.medium.com/-2cfd49f10e07"
-                                    class="button button--flex button--small blog__button" target="_blank">
-                                    Read it
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!--==================== BLOG 2 ====================-->
-                        <div class="blog__content grid swiper-slide">
-                            <img src="assets/img/blog/macbook.jpeg" alt="Customizing macOS terminal" class="blog__img">
-
-                            <div class="blog__data">
-                                <h3 class="blog__title">Explore Techniques for Text Similarity in NLP</h3>
-                                <p class="blog__description">When it comes to determining the similarity between two pieces of text, NLP engineers employ a range of powerful techniques. Here I explain 5 most common techniques.</p>
-
-                                <a href="https://cyb0rg14.medium.com/-a02e916a27a2"
-                                    class="button button--flex button--small blog__button" target="_blank">
-                                    Read it
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Adding arrows -->
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-projects-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-projects-icon"></i>
-                    </div>
-
-                    <!-- Adding pagination -->
-                    <div class="swiper-pagination"></div>
-
-                </div>
-            </section>
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-                <h2 class="section__title">Contact me</h2>
-                <span class="section__subtitle">Get in touch</span>
-
-                <div class="contact__container container grid">
-                    <div>
-                        <div class="contact__information">
-                            <i class="uil uil-envelope contact__icon"></i>
-                            <div>
-                                <h3 class="contact__title">E-mail</h3>
-                                <span class="contact__subtitle">cyborgdomain@proton.me</span>
-                            </div>
-                        </div>
-                        <div class="contact__information">
-                            <i class="uil uil-map-marker contact__icon"></i>
-                            <div>
-                                <h3 class="contact__title">Location</h3>
-                                <span class="contact__subtitle">New Delhi - India</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Update the form's action to your specific form link from Formspree-->
-                    <form action="https://formspree.io/f/xzbndvlb" method="POST" class="contact__form grid" id="my-form">
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Name</label>
-                                <input type="text" id="name" name="name" class="contact__input" required autocomplete="off">
-                            </div>
-                            <div class="contact__content">
-                                <label for="" class="contact__label">E-mail</label>
-                                <input type="email" id="email" name="email" class="contact__input" required autocomplete="off">
-                            </div>
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Message</label>
-                                <textarea id="message" name="message" cols="0" rows="6" class="contact__input"
-                                    required></textarea>
-                            </div>
-                            <div class="contact__submit">
-                                <div>
-                                    <input type="submit" value="Send message" class="button button--flex"
-                                        id="contact__button" autocomplete="off">
-                                </div>
-                                <div id="contact__status"></div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid">
-                    <div>
-                        <h1 class="footer__title">Cyborg</h1>
-                        <span class="footer__subtitle"><span id="multiple-text-footer"></span></span>
-                    </div>
-
-                    <ul class="footer__links">
-                        <li>
-                            <a href="#about" class="footer__link">About</a>
-                        </li>
-                        <li>
-                            <a href="#certifications" class="footer__link">Certifications</a>
-                        </li>
-                        <li>
-                            <a href="#projects" class="footer__link">Projects</a>
-                        </li>
-
-                    </ul>
-
-                    <div class="footer__socials">
-                        <a href="https://www.linkedin.com/in/cyb0rg14" target="_blank" class="footer__social">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
-                        <a href="https://github.com/cyb0rg14" target="_blank" class="footer__social">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
-                        <a href="https://twitter.com/cyb0rg14" target="_blank" class="footer__social">
-                            <i class="uil uil-twitter-alt"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <p class="footer__copy">&copy; Copyright 2023. Cyborg</p>
+        <div class="certification__container container grid">
+          <!--==================== CERTIFICATION 1 ====================-->
+          <div class="certification__content">
+            <div>
+              <img
+                src="./assets/img/certifications/certificate-01.png"
+                class="certification__img_1"
+              />
+              <h4 class="certification__title">Google Data Analytics</h4>
+              <h4 class="certification__subtitle">
+                Expiry Date: Does not expire
+              </h4>
             </div>
-        </footer>
 
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#home" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scrollup__icon"></i>
-        </a>
+            <a
+              class="button button--flex button--small button--link certification__button"
+              href="https://youtube.com/playlist?list=PLtS8Ubq2bIlVN4Zom0O-6rBysJs3wns60&si=X7TH4kHw0Z-z5m0S"
+              target="_blank"
+            >
+              View Certificate
+              <i class="uil uil-arrow-right button__icon"></i>
+            </a>
+          </div>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <!--==================== SCROLL REVEAL JS ====================-->
-        <script src="assets/js/scrollreveal.min.js"></script>
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-        <!--==================== FONTAWESOME ====================-->
-        <script src="https://kit.fontawesome.com/b58a420f20.js" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+          <!--==================== CERTIFICATION 2 ====================-->
+          <div class="certification__content">
+            <div>
+              <img
+                src="./assets/img/certifications/certificate-02.png"
+                class="certification__img"
+              />
+              <h4 class="certification__title">MySQL 5.6 Developer</h4>
+              <h4 class="certification__subtitle">
+                Expiry Date: Does not expire
+              </h4>
+            </div>
 
-    </body>
+            <a
+              class="button button--flex button--small button--link certification__button"
+              href="https://moonshot.scaler.com/s/li/KtlVLgLSC0"
+              target="_blank"
+            >
+              View Certificate
+              <i class="uil uil-arrow-right button__icon"></i>
+            </a>
+          </div>
 
+          <!--==================== CERTIFICATION 3 ====================-->
+          <div class="certification__content">
+            <div>
+              <img
+                src="./assets/img/certifications/certificate-03.png"
+                class="certification__img_2"
+              />
+              <h4 class="certification__title">
+                Analyzing and Visualizing Data with Microsoft Excel
+              </h4>
+              <h4 class="certification__subtitle">
+                Expiry Date: Does not expire
+              </h4>
+            </div>
+
+            <a
+              class="button button--flex button--small button--link certification__button"
+              href="https://olympus.mygreatlearning.com/courses/62883/certificate"
+              target="_blank"
+            >
+              View Certificate
+              <i class="uil uil-arrow-right button__icon"></i>
+            </a>
+          </div>
+
+          <!--==================== CERTIFICATION 4 ====================-->
+          <div class="certification__content">
+            <div>
+              <img
+                src="assets/img/certifications/certificate-04.png"
+                class="certification__img"
+              />
+              <h4 class="certification__title">
+                Git and Github Certification - Intermediate Course
+              </h4>
+              <h4 class="certification__subtitle">
+                Expiry Date: Does not expire
+              </h4>
+            </div>
+
+            <a
+              class="button button--flex button--small button--link certification__button"
+              href="https://www.mindluster.com/student/certificate/184204987"
+              target="_blank"
+            >
+              View Certificate
+              <i class="uil uil-arrow-right button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="projects__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== PROJECT 1 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="assets/img/projects/project-1.png"
+                alt="StatEase"
+                class="projects__img"
+              />
+
+              <div class="projects__data">
+                <h3 class="projects__title">StatEase</h3>
+                <p class="projects__description">
+                  The core intention of this website is to lessen the time it
+                  takes a person to do the basic analysis of their data. More
+                  than 300 users are using it on monthly basis. This website has
+                  successfully shown decrease in time by a significant amount of
+                  70%.
+                </p>
+                <a
+                  href="https://github.com/cyb0rg14/statease"
+                  target="_blank"
+                  class="button button--flex button--small projects__button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a
+                  href="https://statease.streamlit.app"
+                  target="_blank"
+                  class="button button--flex button--small projects__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--==================== PROJECT 2 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="assets/img/projects/project-2.jpg"
+                alt="Anime Odyssey: An Anime Recommender System"
+                class="projects__img"
+              />
+
+              <div class="projects__data">
+                <h3 class="projects__title">Anime Odyssey</h3>
+                <p class="projects__description">
+                  I have seen my friends struggling what to watch after
+                  finishing an anime. So with my interest in both ML & Otaku
+                  culture, I made this website to help my fellow weebs. Now this
+                  is a place for 500+ otakus to get recommendation for their
+                  next anime.
+                </p>
+                <a
+                  href="https://github.com/cyb0rg14/AnimeOdyssey"
+                  target="_blank"
+                  class="button button--flex button--small projects__button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a
+                  href="https://animeodysseyy.streamlit.app"
+                  target="_blank"
+                  class="button button--flex button--small projects__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--==================== PROJECT 3 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="assets/img/projects/project-6.jpg"
+                alt="Anime Odyssey: An Anime Recommender System"
+                class="projects__img"
+              />
+
+              <div class="projects__data">
+                <h3 class="projects__title">Artifact</h3>
+                <p class="projects__description">
+                  I have seen my friends struggling what to watch after
+                  finishing an anime. So with my interest in both ML & Otaku
+                  culture, I made this website to help my fellow weebs. Now this
+                  is a place for 500+ otakus to get recommendation for their
+                  next anime.
+                </p>
+                <a
+                  href="https://github.com/cyb0rg14/Artifact"
+                  target="_blank"
+                  class="button button--flex button--small projects__button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a
+                  href="https://artifact.streamlit.app"
+                  target="_blank"
+                  class="button button--flex button--small projects__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--==================== PROJECT 4 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="assets/img/projects/project-3.jpg"
+                alt="WallFindr: WallPaper Reverse Search Engine"
+                class="projects__img"
+              />
+
+              <div class="projects__data">
+                <h3 class="projects__title">WallFindr</h3>
+                <p class="projects__description">
+                  Sometimes people seems to get confused about the home page of
+                  their PC. This website solves that problem by giving you back
+                  50 wallpapers similar to one what you already have. So you
+                  won't get bored from next time by looking at your wallpaper.
+                </p>
+                <a
+                  href="https://github.com/cyb0rg14/WallFindr"
+                  target="_blank"
+                  class="button button--flex button--small projects__button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a
+                  href="https://wallfindr.streamlit.app"
+                  target="_blank"
+                  class="button button--flex button--small projects__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PROJECT 5 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="assets/img/projects/project-4.jpg"
+                alt="ChatBot"
+                class="projects__img"
+              />
+
+              <div class="projects__data">
+                <h3 class="projects__title">ChatBot Maven</h3>
+                <p class="projects__description">
+                  This project involves fine tuning new launched LLM by meta.
+                  This website serves the same purpose as ChatGPT and Bard.
+                  Though it is at very initial stage. But this was just a fun
+                  project. And you have to use your own replicate token to start
+                  chatting.
+                </p>
+                <a
+                  href="https://github.com/cyb0rg14/ChatBot"
+                  target="_blank"
+                  class="button button--flex button--small projects__button"
+                >
+                  GitHub
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a
+                  href="https://chatbotmaven.streamlit.app"
+                  target="_blank"
+                  class="button button--flex button--small projects__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--==================== PROJECT 6 ====================-->
+            <div class="projects__content grid swiper-slide">
+              <img
+                src="assets/img/projects/project-5.jpg"
+                alt="2021 Olympics Dashboard"
+                class="projects__img"
+              />
+
+              <div class="projects__data">
+                <h3 class="projects__title">2021 Olympics Dashboard</h3>
+                <p class="projects__description">
+                  This was the capstone project I crated for Data Analytics
+                  Bootcamp. Here I have analyzed insights like which country won
+                  the most medal, which sports were played the most by atheletes
+                  from 2021 Olympics Data. Have a look at it below 👇
+                </p>
+                <a
+                  href="https://www.novypro.com/project/2021-olympics-analysis-dashboard"
+                  target="_blank"
+                  class="button button--flex button--small projects__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Adding arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-projects-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-projects-icon"></i>
+          </div>
+
+          <!-- Adding pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== BLOG ====================-->
+      <section class="blog section" id="blog">
+        <h2 class="section__title">Blog</h2>
+        <span class="section__subtitle">My technical articles </span>
+
+        <div class="blog__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== BLOG 1 ====================-->
+            <div class="blog__content grid swiper-slide">
+              <img
+                src="assets/img/blog/metrics.jpeg"
+                alt="Customizing macOS terminal"
+                class="blog__img"
+              />
+
+              <div class="blog__data">
+                <h3 class="blog__title">
+                  Indian Unicorns Analysis (EDA using Python)
+                </h3>
+                <p class="blog__description">
+                  A comprehensive walkthrough of how to perform EDA on a dataset
+                  to find hidden insights out of it. I explore Indian Startup
+                  culture and Unicorns in this dataset.
+                </p>
+
+                <a
+                  href="https://cyb0rg14.medium.com/-2cfd49f10e07"
+                  class="button button--flex button--small blog__button"
+                  target="_blank"
+                >
+                  Read it
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--==================== BLOG 2 ====================-->
+            <div class="blog__content grid swiper-slide">
+              <img
+                src="assets/img/blog/macbook.jpeg"
+                alt="Customizing macOS terminal"
+                class="blog__img"
+              />
+
+              <div class="blog__data">
+                <h3 class="blog__title">
+                  Explore Techniques for Text Similarity in NLP
+                </h3>
+                <p class="blog__description">
+                  When it comes to determining the similarity between two pieces
+                  of text, NLP engineers employ a range of powerful techniques.
+                  Here I explain 5 most common techniques.
+                </p>
+
+                <a
+                  href="https://cyb0rg14.medium.com/-a02e916a27a2"
+                  class="button button--flex button--small blog__button"
+                  target="_blank"
+                >
+                  Read it
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Adding arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-projects-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-projects-icon"></i>
+          </div>
+
+          <!-- Adding pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">E-mail</h3>
+                <span class="contact__subtitle">cyborgdomain@proton.me</span>
+              </div>
+            </div>
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle">New Delhi - India</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Update the form's action to your specific form link from Formspree-->
+          <form
+            action="https://formspree.io/f/xzbndvlb"
+            method="POST"
+            class="contact__form grid"
+            id="my-form"
+          >
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="contact__label">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="contact__input"
+                  required
+                  autocomplete="off"
+                />
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="contact__input"
+                  required
+                  autocomplete="off"
+                />
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  cols="0"
+                  rows="6"
+                  class="contact__input"
+                  required
+                ></textarea>
+              </div>
+              <div class="contact__submit">
+                <div>
+                  <input
+                    type="submit"
+                    value="Send message"
+                    class="button button--flex"
+                    id="contact__button"
+                    autocomplete="off"
+                  />
+                </div>
+                <div id="contact__status"></div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Cyborg</h1>
+            <span class="footer__subtitle"
+              ><span id="multiple-text-footer"></span
+            ></span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#about" class="footer__link">About</a>
+            </li>
+            <li>
+              <a href="#certifications" class="footer__link">Certifications</a>
+            </li>
+            <li>
+              <a href="#projects" class="footer__link">Projects</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://www.linkedin.com/in/cyb0rg14"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a
+              href="https://github.com/cyb0rg14"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-github-alt"></i>
+            </a>
+            <a
+              href="https://twitter.com/cyborgcodes_"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+          <a
+              href="https://instagram.com/cyborgcodes_"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-instagram"></i>
+            </a>
+            <a
+              href="https://direct.me/cyborgcodes"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-rocket"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">&copy; Copyright 2024. Cyborg</p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#home" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--==================== SCROLL REVEAL JS ====================-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+    <!--==================== FONTAWESOME ====================-->
+    <script
+      src="https://kit.fontawesome.com/b58a420f20.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  </body>
 </html>

@@ -744,7 +744,7 @@ img {
 .certification__content {
   position: relative;
   background-color: var(--container-color);
-  padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+  padding: 1.25rem 1.5rem 1.25rem 1.5rem;
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
@@ -753,30 +753,12 @@ img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-.certification__img_1 {
-  padding: 2rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 250px;
-  animation: float-img 3.5s ease-in-out infinite;
-}
-
 .certification__img {
+  padding-top: none;
   padding-bottom: 2rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 250px;
-  animation: float-img 3.5s ease-in-out infinite;
-}
-
-.certification__img_2 {
-  padding-bottom: 2rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /* width: 40%; */
   height: 250px;
   animation: float-img 3.5s ease-in-out infinite;
 }
